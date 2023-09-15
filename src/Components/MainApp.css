@@ -1,0 +1,15 @@
+ #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    /*aside의 크기를 150px */
+    grid-template-rows: 150px 1fr;
+    /*header의 크기를 150px*/
+
+
+ }
+
+ #header {
+    grid-column: 1/3;
+
+
+ }
