@@ -1,0 +1,23 @@
+
+.search_list {
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.movieList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+    list-style-type: none;
+}
+
+.movie {
+    display: inline-block;
+    margin-right: 10px;
+    word-wrap:break-word;
+   
+}
+/* word-wrap = 스크롤 생김*/

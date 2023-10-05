@@ -1,0 +1,32 @@
+
+
+header {
+    height: 180px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.container {
+    display: grid;
+    justify-content: space-evenly;
+
+
+    background-color: antiquewhite;
+    gap: 48px;
+}
+
+body .photo {
+
+    grid-template-columns: 1/2;
+}
+
+.info {
+    grid-template-columns: 2/3;
+}
+
+
+* {
+    background-color: #dfdcdc;
+    color: #333;
+    height: 100%;
+}
